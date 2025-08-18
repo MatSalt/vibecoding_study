@@ -1,0 +1,30 @@
+{
+  "name": "vibecoding_study",
+  "version": "1.0.0",
+  "description": "이 프로젝트는 [RealWorld](https://gothinkster.github.io/realworld/) 애플리케이션 사양을 사용하여 **바이브 코딩(Vibecoding)** 기법을 학습하고, 아르민 로나허(Armin Ronacher)의 추천 기술 스택을 활용하여 RealWorld 앱을 구현하는 것을 목표로 합니다. 풀스택 개발의 전반적인 과정을 경험하고, 다양한 기술 스택 간의 상호 운용성을 이해하는 데 중점을 둡니다.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "echo \"Linting...\"",
+    "build": "echo \"Building...\"",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatSalt/vibecoding_study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MatSalt/vibecoding_study/issues"
+  },
+  "homepage": "https://github.com/MatSalt/vibecoding_study#readme",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
