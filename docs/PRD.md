@@ -55,11 +55,27 @@ RealWorld 표준은 다음과 같은 핵심 기능들을 요구합니다. 모든
 
 ## 5. 기술 스택 (권장)
 
-- **프론트엔드**: React 또는 Angular
-- **백엔드**: Node.js (Express) 또는 Python (Django)
-- **데이터베이스**: SQLite
-- **CSS**: shadcn + tailwind css
-- **실행 환경**: Docker 컨테이너
+- **프론트엔드**:
+  - **React**: 최신 Stable 버전 사용
+    - **공식 문서**: [React 시작하기](https://react.dev/learn)
+  - **Angular**: v18 (LTS)
+    - **공식 문서**: [Angular 시작하기](https://angular.dev/overview)
+- **백엔드**:
+  - **Node.js (Express)**: Node.js v22 (LTS), Express v5
+    - **공식 문서**: [Node.js 시작하기](https://nodejs.org/en/docs/guides/getting-started-guide), [Express 시작하기](https://expressjs.com/en/starter/installing.html)
+  - **Python (Django)**: Python 3.12, Django v5.0 (LTS)
+    - **공식 문서**: [Python 시작하기](https://docs.python.org/3/tutorial/), [Django 시작하기](https://docs.djangoproject.com/en/stable/intro/)
+- **데이터베이스**:
+  - **SQLite**: v3
+    - **공식 문서**: [SQLite CLI](https://www.sqlite.org/cli.html)
+- **CSS**:
+  - **shadcn/ui**: CLI를 통해 컴포넌트 단위로 추가
+    - **공식 문서**: [shadcn/ui 문서](https://ui.shadcn.com/docs)
+  - **tailwindcss**: v4.0
+    - **공식 문서**: [Tailwind CSS 설치](https://tailwindcss.com/docs/installation)
+- **실행 환경**:
+  - **Docker**: 최신 Stable 버전 사용
+    - **공식 문서**: [Docker 시작하기](https://docs.docker.com/get-started/)
 - **참고**: 위 스택은 [gothinkster/realworld](https://github.com/gothinkster/realworld) 저장소에서 권장하는 조합을 기반으로 합니다.
 
 ## 6. 범위 외 (Out of Scope)
